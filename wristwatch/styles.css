@@ -1,0 +1,1068 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@600;700&display=swap");
+h1 {
+  color: #FFFFFF;
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: calc(24px + 61.2 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  h1 {
+    font-size: calc(24px + 36 * (100vw / 1920));
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: "Post No Bills Jaffna", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 90px 0% 10px 0%;
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: calc(28px + 61.2 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  h1 {
+    font-size: calc(28px + 36 * (100vw / 1920));
+  }
+}
+
+h1::after {
+  content: "";
+  display: block;
+  width: 59%;
+  border-bottom: 2px solid #FFFFFF;
+  margin: -17px 0% -3px 20%;
+}
+
+h2, .season__title__left {
+  font-family: "Playfair Display", serif;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+@media (max-width: 767px) {
+  h2, .season__title__left {
+    font-size: calc(16px + 34 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  h2, .season__title__left {
+    font-size: calc(16px + 20 * (100vw / 1920));
+  }
+}
+
+.season__title__right {
+  margin-bottom: -8px;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  h3 {
+    font-size: calc(14px + 13.6 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  h3 {
+    font-size: calc(14px + 8 * (100vw / 1920));
+  }
+}
+
+.list_reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.btn__reset {
+  padding: 0 2%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.btn__search {
+  padding: 2px 1px 0 45px;
+  margin-right: -37px;
+  margin-top: 22px;
+}
+
+.btn__basket {
+  padding: 0px 33px 0 40px;
+  margin-top: 23px;
+  margin-right: -34px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header {
+  width: 100vw;
+}
+.header__top {
+  width: 100vw;
+  background-color: #000000;
+}
+.header__input, .header__tel {
+  width: 15px;
+  background-repeat: no-repeat;
+  margin: 0 16px 0 0;
+}
+.header__tel {
+  background-image: url("images/header/phon.svg");
+}
+.header__input {
+  background-image: url("images/header/login.svg");
+}
+.header__text {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: #969696;
+}
+@media (max-width: 767px) {
+  .header__text {
+    font-size: calc(12px + 1.7 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  .header__text {
+    font-size: calc(12px + 1 * (100vw / 1920));
+  }
+}
+.header__communication, .header__login {
+  display: flex;
+  justify-content: space-between;
+}
+.header__login {
+  margin-right: 50px;
+}
+.header__top {
+  padding: 22px 0;
+}
+.header__logo {
+  width: 100vw;
+  background-color: #0F0F0F;
+}
+
+.header__logo__reset, .navigation__search {
+  display: none;
+}
+
+.container {
+  width: 59%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 18%;
+}
+
+.link__logo {
+  font-family: "Post No Bills Jaffna", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px;
+  color: #FFFFFF;
+  padding: 24px 0;
+}
+@media (max-width: 767px) {
+  .link__logo {
+    font-size: calc(18px + 30.6 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  .link__logo {
+    font-size: calc(18px + 18 * (100vw / 1920));
+  }
+}
+.link__set {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #969696;
+  padding: 25px 12px;
+  display: flex;
+}
+@media (max-width: 767px) {
+  .link__set {
+    font-size: calc(10px + 6.8 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  .link__set {
+    font-size: calc(10px + 4 * (100vw / 1920));
+  }
+}
+.link__basket, .link_search {
+  margin-top: -31px;
+  padding-top: 31px;
+}
+.link__basket {
+  padding: 31px 21px 31px 42px;
+}
+.link__set:hover, .link__basket:hover, .link__search:hover {
+  background: #1F1F1F;
+  color: #FFFFFF;
+  height: 135%;
+  margin-top: -20px;
+  padding-top: 45px;
+}
+
+.btn__basket:hover {
+  background: #1F1F1F;
+  color: #FFFFFF;
+  height: 138%;
+  margin-top: -33%;
+  padding-bottom: 37%;
+}
+
+.btn__search:hover {
+  background: #1F1F1F;
+  color: #FFFFFF;
+  height: 140%;
+  margin-top: -73%;
+  padding-left: 23px;
+  padding-right: 21px;
+  padding-bottom: 78%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 36px 100px;
+  margin: -15px -6px -28px 0px;
+}
+
+main {
+  background-color: black;
+}
+
+.intel {
+  height: 80vh;
+  background-image: url("images/section intel/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.intel__block {
+  padding-right: 5%;
+}
+.intel__block p {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0 17%;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+@media (max-width: 767px) {
+  .intel__block p {
+    font-size: calc(12px + 6.8 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  .intel__block p {
+    font-size: calc(12px + 4 * (100vw / 1920));
+  }
+}
+.intel__logo {
+  border: 4px solid #FFFFFF;
+  margin: 162px 33% 73px;
+  padding: 7px 0%;
+}
+.intel__logo hr {
+  outline: 2px solid #FFFFFF;
+  margin: 0 20% 0 20%;
+}
+.intel__subtitle {
+  margin: 9px 15% 93px 15%;
+}
+.intel__season {
+  display: flex;
+  justify-content: space-evenly;
+}
+.intel__season__left {
+  background-color: #000000;
+  width: 55%;
+}
+.intel__season__left hr {
+  width: 11%;
+  margin-top: -37px;
+}
+.intel__season__right {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 46%;
+  padding: 475px 100px 100px;
+}
+.intel__season__right hr {
+  width: 18%;
+  margin: 31px 41%;
+}
+.intel__btn {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 28px;
+  gap: 10px;
+}
+@media (max-width: 767px) {
+  .intel__btn {
+    font-size: calc(14px + 6.8 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  .intel__btn {
+    font-size: calc(14px + 4 * (100vw / 1920));
+  }
+}
+.intel__season__right button {
+  margin: 0 17%;
+}
+.intel__form {
+  padding: 10px 5px;
+  text-align: center;
+  border: 1px solid;
+  margin: 10px 40%;
+}
+
+.season__cards {
+  padding: 44px 8% 0;
+  display: grid;
+  gap: 0 5%;
+  grid-template-columns: repeat(3, 30%);
+  grid-auto-rows: 415px;
+}
+
+.season__title__left {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 83px 0 50px;
+}
+@media (max-width: 767px) {
+  .season__title__left {
+    font-size: calc(18px + 30.6 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  .season__title__left {
+    font-size: calc(18px + 18 * (100vw / 1920));
+  }
+}
+
+.product__image img {
+  background-image: url("images/cards/background-wotch.jpg");
+  padding: 55px 22px;
+  background-position: center center;
+}
+
+.catalog__card h4 {
+  font-family: "Playfair Display", serif;
+  line-height: 21px;
+}
+@media (max-width: 767px) {
+  .catalog__card h4 {
+    font-size: calc(12px + 10.2 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  .catalog__card h4 {
+    font-size: calc(12px + 6 * (100vw / 1920));
+  }
+}
+
+.catalog__prices {
+  display: flex;
+}
+
+.catalog__card p {
+  font-family: "Playfair Display", serif;
+  line-height: 19px;
+  color: #D0D0D0;
+}
+@media (max-width: 767px) {
+  .catalog__card p {
+    font-size: calc(12px + 6.8 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  .catalog__card p {
+    font-size: calc(12px + 4 * (100vw / 1920));
+  }
+}
+
+.collection {
+  margin-top: -108px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.collection__intel {
+  width: 54%;
+  background: #000000;
+}
+.collection__intel h2 {
+  margin: 100px 32% 40px;
+}
+.collection__intel hr {
+  width: 12%;
+}
+.collection__intel p {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+  margin: 38px 27% 60px;
+}
+@media (max-width: 767px) {
+  .collection__intel p {
+    font-size: calc(10px + 6.8 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  .collection__intel p {
+    font-size: calc(10px + 4 * (100vw / 1920));
+  }
+}
+.collection__intel form {
+  width: 30%;
+  margin-left: 35%;
+}
+.collection__img {
+  background-image: url("images/section-collection/collection.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 46%;
+}
+
+.news {
+  background: #000000;
+}
+.news > .container {
+  flex-direction: column;
+}
+.news h2 {
+  margin: 120px auto 40px;
+}
+.news hr {
+  width: 11%;
+  margin-bottom: 81px;
+}
+.news__cards {
+  display: grid;
+  gap: 42px 1%;
+  grid-template-columns: repeat(4, 23%);
+  grid-auto-rows: 415px;
+  margin-bottom: 150px;
+}
+
+.footer__brands {
+  background-color: #0F0F0F;
+}
+.footer__brands > .container {
+  display: flex;
+  flex-direction: column;
+}
+.footer__brands hr {
+  width: 12%;
+}
+.footer__brands ul {
+  display: grid;
+  gap: 40px 1%;
+  grid-template-columns: repeat(4, 24%);
+  padding: 0;
+  margin-bottom: 70px;
+  margin-top: 32px;
+}
+
+.subscribe {
+  background-image: url("images/footer-background/footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.subscribe > .container {
+  display: grid;
+  gap: 40px 3%;
+  grid-template-columns: repeat(3, 31%);
+  padding-bottom: 101px;
+  padding-top: 51px;
+  padding-left: 1%;
+}
+.subscribe h4 {
+  font-family: "Playfair Display", serif;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+  .subscribe h4 {
+    font-size: calc(12px + 20.4 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  .subscribe h4 {
+    font-size: calc(12px + 12 * (100vw / 1920));
+  }
+}
+.subscribe p {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+@media (max-width: 767px) {
+  .subscribe p {
+    font-size: calc(10px + 6.8 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  .subscribe p {
+    font-size: calc(10px + 4 * (100vw / 1920));
+  }
+}
+
+.btn__subscribe {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  background: #0F0F0F;
+  line-height: 150%;
+  color: #D0D0D0;
+  padding: 10px 14px;
+  margin: 0 20px 0 0;
+}
+@media (max-width: 767px) {
+  .btn__subscribe {
+    font-size: calc(10px + 6.8 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  .btn__subscribe {
+    font-size: calc(10px + 4 * (100vw / 1920));
+  }
+}
+
+.btn__subscribe:nth-child(4), .btn__subscribe:nth-child(5) {
+  margin: 20px 20px 0 0;
+}
+
+.distrib {
+  margin-bottom: 37px;
+  margin-left: -3%;
+}
+
+.btn__distrib {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  background-color: #0F0F0F;
+  padding: 16px 15px 10px 24px;
+  border: none;
+}
+@media (max-width: 767px) {
+  .btn__distrib {
+    font-size: calc(10px + 6.8 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  .btn__distrib {
+    font-size: calc(10px + 4 * (100vw / 1920));
+  }
+}
+
+.mail__btn {
+  background: rgba(255, 255, 255, 0.4);
+  padding: 11px 12px 10px 18px;
+  font-size: 100%;
+  border: none;
+  margin-right: -22%;
+  margin-left: -3%;
+}
+
+.btns__distrib form {
+  margin-top: -6%;
+}
+
+::placeholder {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+@media (max-width: 767px) {
+  ::placeholder {
+    font-size: calc(10px + 6.8 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  ::placeholder {
+    font-size: calc(10px + 4 * (100vw / 1920));
+  }
+}
+
+.copyright {
+  background: #0F0F0F;
+  height: 50px;
+  margin-top: -11px;
+}
+.copyright > .container {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright__text, .copyright__info {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: #D0D0D0;
+}
+@media (max-width: 767px) {
+  .copyright__text, .copyright__info {
+    font-size: calc(10px + 3.4 * ((100vw - 320px) / 1920));
+  }
+}
+@media (min-width: 767px) {
+  .copyright__text, .copyright__info {
+    font-size: calc(10px + 2 * (100vw / 1920));
+  }
+}
+.copyright__text {
+  font-weight: 400;
+}
+.copyright__info {
+  font-weight: 700;
+  text-align: right;
+  text-decoration-line: underline;
+}
+
+/* форма регистрации*/
+.registration {
+  display: none;
+}
+
+.header__form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.opened {
+  width: 25%;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  background: rgba(130, 111, 100, 0.8);
+}
+
+.close {
+  padding: 0 10px;
+  margin: 23px 3px;
+}
+
+.registration__container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  color: #0f0f0f;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #D0D0D0;
+  outline: none;
+}
+
+::placeholder {
+  color: black;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #D0D0D0;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #1e1e21;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  text-align: center;
+  margin: 0 16px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/*корзина*/
+.cartContents__closed {
+  display: none;
+}
+
+.cartContents {
+  display: flex;
+  text-align: center;
+  margin: 0 16px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 162px;
+  background: rgba(130, 111, 100, 0.8);
+  width: 25%;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.amountContent {
+  display: flex;
+}
+
+.add, .amount, .remove {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+@media (max-width: 1023px) {
+  .intel__logo {
+    border: none;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 0 5%;
+    padding-right: 5%;
+  }
+
+  .header__top > .container, .header__logo > .container {
+    padding-right: 0;
+  }
+
+  main {
+    margin-bottom: -165px;
+  }
+
+  .intel__season__left hr {
+    width: 28%;
+  }
+
+  .subscribe > .container {
+    gap: 40px 2%;
+    grid-template-columns: repeat(3, 32%);
+  }
+
+  .subscribe__btn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .btn__subscribe {
+    text-align: center;
+  }
+
+  .btn__subscribe:nth-child(3) {
+    margin-top: 20px;
+  }
+
+  .subscribe p {
+    line-height: 200%;
+  }
+
+  .mail__btn {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    margin: 90px 15% 10px 15%;
+  }
+
+  .intel__subtitle {
+    margin: 9px 10% 93px 10%;
+  }
+
+  .navigation {
+    margin: 0 2px -31px -51px;
+  }
+
+  .season__title__left {
+    padding: 50px 0 0;
+  }
+
+  .intel__season__right {
+    padding: 283px 0 0;
+  }
+
+  .intel__season__right hr {
+    width: 34%;
+    margin: 30px 34%;
+  }
+
+  .intel__season__right button {
+    margin: 0 33%;
+  }
+
+  .collection__intel h2 {
+    margin: 100px 24% 40px;
+  }
+
+  .collection__intel hr {
+    width: 30%;
+  }
+
+  .collection__intel p {
+    margin: 40px 12% 60px;
+  }
+
+  .news h2 {
+    margin: 40px auto 40px;
+  }
+
+  .news hr {
+    width: 21%;
+    margin-bottom: 64px;
+  }
+
+  .news__cards {
+    gap: 0 2%;
+    grid-auto-rows: 395px;
+    margin-bottom: 0;
+  }
+
+  .footer__brands ul {
+    gap: 40px 2%;
+    grid-template-columns: repeat(4, 23%);
+  }
+
+  .footer__brands > .container hr {
+    width: 21%;
+  }
+}
+@media (max-width: 375px) {
+  .header__logo__reset, .navigation__search {
+    display: block;
+  }
+
+  .header__logo {
+    height: 65px;
+  }
+
+  .opened {
+    width: 100%;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  summary {
+    list-style: none;
+    float: left;
+  }
+
+  summary img {
+    padding-top: 10px;
+    margin-right: 10px;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: right;
+    background-position-y: top;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+    list-style: none;
+  }
+
+  summary {
+    list-style: none;
+  }
+
+  details summary::-webkit-details-marker {
+    display: none;
+    list-style: none;
+  }
+
+  details > summary::-webkit-details-marker {
+    list-style: none;
+    display: none;
+  }
+
+  .header__logo__reset {
+    display: block;
+    width: 8%;
+    position: absolute;
+    right: 34%;
+    top: 103px;
+    color: white;
+  }
+
+  .header__logo__menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* padding: 12px 0; */
+    /* margin: -1px; */
+    margin-left: -40px;
+    margin-top: 40px;
+  }
+
+  .link__set {
+    padding: 0;
+  }
+
+  .navigation__search {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .link__basket, .link__search {
+    padding: 11px;
+  }
+
+  .intel__logo {
+    margin: 160px 13% 73px;
+  }
+
+  .intel__season {
+    flex-direction: column;
+  }
+
+  .intel__season__left, .intel__season__right {
+    width: 100%;
+  }
+
+  .intel__season__right {
+    padding: 100px 0 100px;
+    margin-top: -120px;
+  }
+
+  .collection {
+    flex-direction: column;
+  }
+
+  .collection__img {
+    height: 40vh;
+    width: 100vw;
+    margin-top: -124px;
+  }
+
+  .collection__intel {
+    width: 100vw;
+    margin-bottom: -150px;
+  }
+
+  .news__cards {
+    gap: 0 6%;
+    grid-auto-rows: 320px;
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .subscribe > .container {
+    gap: 1px 6%;
+    grid-template-columns: repeat(1, 99%);
+    padding-bottom: 18px;
+    padding-top: 3px;
+  }
+
+  .btn__subscribe {
+    padding: 4px 27px;
+    margin: 0 17px 0 0;
+  }
+
+  .footer__brands {
+    margin-top: 110px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

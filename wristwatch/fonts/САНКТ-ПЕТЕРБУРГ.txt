@@ -1,0 +1,4 @@
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+CSS rules to specify families
+
+font-family: 'PT Sans', sans-serif;
